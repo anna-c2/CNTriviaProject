@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+.app {
+  text-align: center;
+}
+
+.title {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 60px;
+}
+
+.question {
+  margin: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.answers {
+  line-height: 2;
+  margin: 15px;
+  font-size: 17px;
+}
+
+.prompt {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 22px;
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "question": {
+      "choices": ["13", "10", "11", "12"],
+      "correct_choice_index": 3,
+      "text": "How many months are in a year?"
+    }
+  },
+  {
+    "question": {
+      "choices": ["Brooklyn", "Syracuse", "Manhattan", "Bronx"],
+      "correct_choice_index": 1,
+      "text": "Which location is not a borough of NYC?"
+    }
+  },
+  {
+    "question": {
+      "choices": ["So", "S", "Na", "K"],
+      "correct_choice_index": 2,
+      "text": "What is the symbol for Sodium on the periodic table?"
+    }
+  }
+]
