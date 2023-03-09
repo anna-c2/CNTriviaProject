@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #e33030;
+}
+img {
+  width: 300px;
+  margin: 20px;
+}
+
+.app {
+  margin: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0;
+  padding-bottom: 3em;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  background: #fff9c2;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.answerChoice {
+  background: #fabbaa;
+  width: 20em;
+  height: 3em;
+  margin: 10px;
+  color: #963b21;
+  font-size: 22px;
+  border-radius: 30px;
+  border-color: transparent;
+}
+
+.answerChoice:hover {
+  background: #963b21;
+  color: #ffff;
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  background: #e33030;
+  font-size: 20px;
+  color: #ffff;
+}
+
+/* next button */
+.nextButton {
+  background: #97e897;
+  color: #227d22;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 30px;
+  border-color: transparent;
+
+}
+
+.nextButton:hover {
+  background: #227d22;
+  color: #ffff;
+}
+
+/* Fast Food Trivia! */
+.title {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 50px;
+  color: #e33030;
+  margin: 0px;
+  padding-top: 20px;
+}
+
+
+/* question */
+.questionText {
+  font-size: 23px;
+}
+
+.answers {
+  line-height: 2;
+  margin: 15px;
+  font-size: 17px;
+}
+
+.prompt {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 40px;
+}
+
+/* includes: question, image, answer choices, message, next button */
+.questionBox {
+  transform: scale(0.9);
+  background: #ffffff;
+  border: thick solid #e33030;
+  padding: 20px;
+  text-align:center;
+  border-radius: 15px;
+  margin-top:0;
+}
+
+.userMsg {
+  font-size: 20px;
+}
