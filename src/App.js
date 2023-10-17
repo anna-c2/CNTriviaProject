@@ -8,11 +8,10 @@ import data from "./sample_data.json";
 import FinalScreenStyles from "./css/FinalScreen.module.css";
 import BalloonStyles from "./css/Balloons.module.css";
 
-
 function App() {
   let [currentQuestionNumber, setCurrentQuestionNumber] = useState(0);
   let [answerState, setAnswerState] = useState(null);
-  let [bgColorState, setbgColorState] = useState("white");
+  // let [bgColorState, setbgColorState] = useState("white");
 
   /* returns the correct answer choice as a string:
     - data: access the "data" file imported at the top
@@ -40,12 +39,12 @@ function App() {
     }
     // condition/event: user clicks on correct answer choice
     else if (answerState === getCorrectAnswer()) {
-      setbgColorState("green");
+      // setbgColorState("green");
       return <div>Correct!</div>;
     }
     // condition/event: user clicks on wrong answer choice
     else if (answerState !== null && answerState !== getCorrectAnswer()) {
-      setbgColorState("red");
+      // setbgColorState("red");
       return <div>Wrong, try again.</div>;
     }
   }
